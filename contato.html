@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.min.css" integrity="sha512-UiKdzM5DL+I+2YFxK+7TDedVyVm7HMp/bN85NeWMJNYortoll+Nd6PU9ZDrZiaOyk9egQm6LOJZi36L2g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contato | Ronaldo de Jesus Teixeira Advocacia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header-white">
+        <div class="container header-flex">
+            <a href="index.html" class="logo">
+                <img src="img/60aef6fe-1d48-4f11-a547-512e2c51ebd8.png" alt="Logo Ronaldo de Jesus Teixeira">
+                <div class="logo-text">
+                    <span class="logo-main"></span>
+                    <span class="logo-sub"></span>
+                </div>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="areas-atuacao.html" class="nav-link">Áreas de Atuação</a></li>
+                    <li><a href="equipe.html" class="nav-link">Administrativo</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="contato.html" class="cta-button active">Contactar</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Entre em Contato</h1>
+                <p>Estamos prontos para ajudá-lo com suas questões jurídicas.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container contact-grid">
+                <div class="contact-info-block">
+                    <h2>Informações de Contato</h2>
+                    <p>Entre em contato conosco através dos canais abaixo ou preencha o formulário ao lado.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method-item">
+                            <div class="method-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="method-info">
+                                <h4>Telefone</h4>
+                                <p>(54) 99113-8030</p>
+                            </div>
+                        </div>
+                        <div class="contact-method-item">
+                            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>contato@ronaldoteixeira.adv.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-method-item">
+                            <div class="method-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="method-info">
+                                <h4>Endereço</h4>
+                                <p>Rua Exemplo, 123 - Centro</p>
+                                <p>Cidade, Estado - CEP 99999-999</p>
+                            </div>
+                        </div>
+                        <div class="contact-method-item">
+                            <div class="method-icon"><i class="fas fa-id-card"></i></div>
+                            <div class="method-info">
+                                <h4>OAB</h4>
+                                <p>OAB/RS 121.926</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h2>Envie sua Mensagem</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone (opcional):</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Assunto:</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecione um assunto</option>
+                                <option value="Direito Tributário">Direito Tributário</option>
+                                <option value="Direito Empresarial">Direito Empresarial</option>
+                                <option value="Direito Civil">Direito Civil</option>
+                                <option value="Direito Trabalhista">Direito Trabalhista</option>
+                                <option value="Direito de Família">Direito de Família e Sucessões</option>
+                                <option value="Direito Previdenciário">Direito Previdenciário</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button id="submit_button" type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ronaldo de Jesus Teixeira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.6.1/toastify.js" integrity="sha512-MnKz2SbnWiXJ/e0lSfSzjaz9JjJXQNb2iykcZkEY2WOzgJIWVqJBFIIPidlCjak0iTH2bt2u1fHQ4pvKvBYy6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
