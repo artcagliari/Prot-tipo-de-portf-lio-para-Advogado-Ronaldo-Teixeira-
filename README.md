@@ -1,2 +1,14 @@
-# Prot-tipo-de-portf-lio-para-Advogado-Ronaldo-Teixeira-
-Portfolio ADV Teixeira: site desenvolvido para o escritório de advocacia Ronaldo de Jesus Teixeira, especializado em Direito Tributário. Apresenta áreas de atuação, equipe, missão e valores, com design responsivo, formulário de contato integrado e foco em confiança e proximidade.
+# 📑 Portfolio ADV Teixeira  
+
+Site desenvolvido para o escritório **Ronaldo de Jesus Teixeira Advocacia**, especializado em Direito Tributário, Empresarial, Civil e de Família.  
+Objetivo: transmitir **confiança e proximidade**, com design responsivo e foco na experiência do usuário.  
+
+## 🚀 Funcionalidades  
+- Página inicial com estatísticas e especialidades  
+- Áreas de atuação detalhadas  
+- Seção "Sobre Nós" e equipe  
+- Formulário de contato integrado (EmailJS)  
+- Layout responsivo  
+
+## 🛠️ Tecnologias  
+HTML5, CSS3, JavaScript, Font Awesome, Google Fonts, Toastify.js, EmailJS, html2pdf.js  
