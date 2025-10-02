@@ -1,6 +1,6 @@
 # 📑 Portfolio ADV Teixeira  
 
-Site desenvolvido para o escritório **Ronaldo de Jesus Teixeira Advocacia**, especializado em Direito Tributário, Empresarial, Civil e de Família.  
+Prototipo de site desenvolvido para o escritório **Ronaldo de Jesus Teixeira Advocacia**, especializado em Direito Tributário, Empresarial, Civil e de Família.  
 Objetivo: transmitir **confiança e proximidade**, com design responsivo e foco na experiência do usuário.  
 
 ## 🚀 Funcionalidades  
